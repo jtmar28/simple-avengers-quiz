@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper blue darken-3">
+        <a href="#" class="brand-logo center">Avengers Quiz</a>
+        <ul>
+            <li class="right">Correct: <span class="counter"></span></li>
+        </ul>
+      </div>
+    </nav>
+    <section>
+      <div class="row">
+        <div class="col l3 m6 s12">
+          <div class="card">
+            <div class="card-image"><img src="img/Iron-Man.png" alt="" /></div>
+            <div class="card-content"><h2>Who is this?</h2></div>
+            <div class="card-action">
+              <form id="form1">
+                <p>
+                  <label>
+                    <input type="radio" class="answer" name="group1" value="iron man"/> <span>Iron Man</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input type="radio" name="group1" /> <span>Iron Woman</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input type="radio" name="group1" /> <span>Man of Steel</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input type="radio" name="group1" /> <span>Bronzie</span>
+                  </label>
+                </p>
+                <input type="submit" class="btn btn-block question1" />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col l3 m6 s12">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/captain marvel.jpg" alt="" />
+            </div>
+            <div class="card-content"><h2>Who is this?</h2></div>
+            <div class="card-action">
+              <form id="form2">
+                <p>
+                  <label>
+                    <input type="radio" name="group2" /> <span>Super Woman</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input type="radio" class="answer" name="group2" /> <span>Captain Marvel</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input type="radio" name="group2"/> <span>Blonde Power Stare</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input type="radio" name="group2" /> <span>Leader of Alanta</span>
+                  </label>
+                </p>
+                <input type="submit" class="btn btn-block question2" />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col l3 m6 s12">
+          <div class="card">
+            <div class="card-image"><img src="img/thanos.jpg" alt="" /></div>
+            <div class="card-content"><h2>Who is this?</h2></div>
+            <div class="card-action">
+              <form id="form3">
+                <p>
+                  <label>
+                    <input type="radio" name="group3"/> <span>One Punch Man</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input type="radio" name="group3"/>
+                    <span>Member of Blue man group</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input type="radio" name="group3"/> <span>Iron Fist</span>
+                  </label>
+                </p>
+                <p>
+                  <label> <input type="radio" class="answer" name="group3"/> <span>Thanos</span> </label>
+                </p>
+                <input type="submit" class="btn btn-block question3" />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col l3 m6 s12">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/black widow.jpg" alt="" />
+            </div>
+            <div class="card-content"><h2>Who is this?</h2></div>
+            <div class="card-action">
+              <form id="form4">
+                <p>
+                  <label>
+                    <input type="radio" class="answer" name="group4"/> <span>black Widow</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input type="radio" name="group4"/> <span>cp9 recruit</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input type="radio" name="group4"/> <span>Black ops: Julie</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input type="radio" name="group4"/>
+                    <span>Victoria Sercret agent</span>
+                  </label>
+                </p>
+                <input type="submit" class="btn btn-block question4" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
